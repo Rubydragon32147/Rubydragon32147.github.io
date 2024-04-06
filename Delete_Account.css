@@ -1,0 +1,91 @@
+
+.container {display: inline-block;}
+
+*{
+    overflow-y: hidden;
+ }
+
+.text{
+    font-size: 57px;
+    letter-spacing: 10px;
+    font-family:sans-serif;
+    /* border-right: 5px solid; */
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3.5s,
+        cursor .4s step-end infinite alternate    
+    ;
+    text-decoration:solid;
+    color: white;
+    margin: 30px
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent}
+}
+
+@keyframes typing{
+    from{width: 0;}
+}
+
+.box {
+    height: 730px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+.sign {
+    height: 710px;
+    width: 470px;
+    border: 2px solid black;
+    /* position:relative; */
+    /* left: 500px; */
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+form {
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+#submit {
+    font-size: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.table {
+    font-size: 22px;
+}
+
+#signup:hover {
+    background-color: green;
+}
+*{
+    overflow-y: hidden;
+ }
+.backvideo{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETAIL</title>
+    <link rel="stylesheet" href="detailtry.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="hero">
+        <nav>
+            <a href="home2.php"><img src="logo2.png" class="logo"></a>
+            <p style="color: white; font-size: 30px;">MY BOOKS </p>
+            <!-- width="140px" height="115px" -->
+            <ul>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">GENRE</a>
+                    <div class="dropdown-content">
+                        <a href="GENRE.php">FANTASY </a>
+                        <a href="fiction.php">FICTION</a>
+                        <a href="nonfiction.php">NON-FICTION</a>
+                        <a href="comedy.php">COMEDY</a>
+                        <a href="rommance.php">ROMMANCE</a>
+                        <div class="dropdown-content">
+                        <a href="action.php">ACTION </a>
+                        <a href="classic.php">CLASSICS</a>
+                        <a href="graphic.php">GRAPHIC</a>
+                        <a href="mystery.php">MYSTERY</a>
+                        <a href="horror.php">HORROR</a>
+
+                    </div>
+                </li>
+                <li><a href="NEW.php">LATEST</a></li>
+                <li><a href="BESTSELLING.php">BEST SELLING</a></li>
+                <li><a href="mybook.php">MY BOOKS</a></li>
+            </ul>
+            <img src="icon-removebg-preview.png" class="user-pic" onclick="toggleMenu()">
+
+            <div class="sub-menu-wrap" id="subMenu">
+                <div class="sub-menu">
+                    <div class="userinfo">
+                        <img src="IMG.png">
+                        <h2>YOUR NAME</h2>
+                    </div>
+                    <hr>
+
+                    <a href="#" class="sunmenulink">
+                        <p>Update Account details</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="Delete_Account.html" class="sunmenulink">
+                        <p>Delete Account</p>
+                        <span>></span>
+                    </a>
+
+                    <a href="login.html" class="sunmenulink">
+                        <p>Logout</p>
+                        <span>></span>
+                    </a>
+
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+
+    <script>
+        let subMenu = document.getElementById("subMenu");
+
+        function toggleMenu() {
+            subMenu.classList.toggle("open-menu");
+        }
+    </script>
+    <div class="book1">
+
+        <div class="img" id="img "><img src="richdadpoordad.jpg" width="300px" height="500px" alt="BOOK"
+                style="border-radius: 10%;"></div>
+        <div class="info" id="info">
+            <div class="head" id="head">
+                <h1>
+                RICH DAD POOR DAD
+            </h1>
+            </div><br>
+            <div class="Aname" id="Aname" >
+                <table>
+                    <tr>
+                        <th>
+                            <h2 >ROBERT T.KIYOSAKI
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </h2><br>
+                        </th>
+                        <th>
+                            <div class="socail" id="socail">
+                                <h1 ><a href="https://www.linkedin.com/in/robert-kiyosaki-46b532145"><img src="linkedinlogo.png" 
+                                    alt="linkedinlogo" ></a>
+                        </h1>
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="star" id="star">
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star" ></span>
+
+            </div>
+
+            <br>
+
+            <!-- <h4 style="font-size: 25px;">Tags: Fantasy, YoungAdult Mythology, Fiction, Adventure, Greek Mythology</h4> -->
+           <div class="des" id="desc">
+            <b>
+                <h4 >DESCRIPTION </h4>
+            </b>
+            <p >Rich Dad Poor Dad is a 1997 book written by Robert T. Kiyosaki and Sharon
+                Lechter. It advocates the importance of financial literacy (financial education), financial independence
+                and building wealth through investing in assets, real estate investing, starting and owning businesses,
+                as well as increasing one's financial intelligence.
+                <br>
+                Rich Dad Poor Dad is written in the style of a set of parables based on Kiyosaki's life. The titular
+                "rich dad" is his best friend's father who accumulated wealth due to entrepreneurship and savvy
+                investing, while the "poor dad" is claimed to be Kiyosaki's own father who he says worked hard all his
+                life but never obtained financial security.
+            </p>
+           </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+    <!-- code here for your review  -->
+
+    <center>
+        <div class="myreview2" id="myreview2"><h2 >ENTER YOUR REVEIWS</h2></div>
+        <div class="myreview" id="myreview">
+            <textarea id="myTextarea"  ></textarea>
+
+        </div>
+    </center>
+    <br><br><br>
+    <center>
+        <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">TOP REVEIWS</h1>
+    </center>
+    <br>
+
+   <div class="saurav" id="saurav">
+    <table>
+        <tr>
+            <th>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="sunil/saurav.png" width="100px" height="80px" style="border-radius: 50%;">
+            </th>
+            <th>
+                <h2
+                    style="text-align: left;font-size: 26.5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    &nbsp;&nbsp;SAURAV MISHRA</h2>
+            </th>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                <span class="fa fa-star " style="font-size: 28px;"></span>
+                <span class="fa fa-star" style="font-size: 28px;">
+                </span>
+                <br>
+                <p style="font-size: 23px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+                    consequatur soluta voluptatem doloremque aut magni autem nesciunt quaerat hic asperiores saepe
+                    repellendus iste cumque. Laborum?</p>
+
+            </td>
+        </tr>
+    </table>
+   </div>
+
+    <br>
+    <div class="reuben" id="reuben">
+        <table>
+            <tr>
+                <th>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sunil/reuben.png" width="100px" height="80px" style="border-radius: 50%;">
+                </th>
+                <th>
+                    <h2
+                        style="text-align: left;font-size: 26.5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        &nbsp;&nbsp;REUBEN MANNDANA</h2>
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star checked " style="font-size: 28px;"></span>
+                    <span class="fa fa-star" style="font-size: 28px;">
+                    </span>
+                    <br>
+                    <p style="font-size: 23px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+                        consequatur soluta voluptatem doloremque aut magni autem nesciunt quaerat hic asperiores saepe
+                        repellendus iste cumque. Laborum?</p>
+    
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    <div class="jimit" id="jimit">
+        <table>
+            <tr>
+                <th>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sunil/jimit.png" width="100px" height="80px" style="border-radius: 50%;">
+                </th>
+                <th>
+                    <h2
+                        style="text-align: left;font-size: 26.5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        &nbsp;&nbsp;JIMIT PARMAR </h2>
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star " style="font-size: 28px;"></span>
+                    <span class="fa fa-star " style="font-size: 28px;"></span>
+                    <span class="fa fa-star" style="font-size: 28px;">
+                    </span>
+                    <br>
+                    <p style="font-size: 23px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+                        consequatur soluta voluptatem doloremque aut magni autem nesciunt quaerat hic asperiores saepe
+                        repellendus iste cumque. Laborum?</p>
+    
+                </td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="monish" id="monish">
+        <table>
+            <tr>
+                <th>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sunil/monish.png" width="100px" height="80px" style="border-radius: 50%;">
+                </th>
+                <th>
+                    <h2
+                        style="text-align: left;font-size: 26.5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        &nbsp;&nbsp;MOHISH  </h2>
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star" style="font-size: 28px;"></span>
+                    <span class="fa fa-star " style="font-size: 28px;"></span>
+                    <span class="fa fa-star " style="font-size: 28px;"></span>
+                    <span class="fa fa-star" style="font-size: 28px;">
+                    </span>
+                    <br>
+                    <p style="font-size: 23px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+                        consequatur soluta voluptatem doloremque aut magni autem nesciunt quaerat hic asperiores saepe
+                        repellendus iste cumque. Laborum?</p>
+    
+                </td>
+            </tr>
+        </table>
+
+    </div>
+        
+    <div class="neel" id="neel">
+        <table>
+            <tr>
+                <th>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="sunil/neel.png" width="100px" height="80px" style="border-radius: 50%;">
+                </th>
+                <th>
+                    <h2
+                        style="text-align: left;font-size: 26.5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                        &nbsp;&nbsp;NEEL MEHTA </h2>
+                </th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <span class="fa fa-star checked" style="font-size: 28px;"></span>
+                    <span class="fa fa-star" style="font-size: 28px;"></span>
+                    <span class="fa fa-star " style="font-size: 28px;"></span>
+                    <span class="fa fa-star " style="font-size: 28px;"></span>
+                    <span class="fa fa-star" style="font-size: 28px;">
+                    </span>
+                    <br>
+                    <p style="font-size: 23px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus,
+                        consequatur soluta voluptatem doloremque aut magni autem nesciunt quaerat hic asperiores saepe
+                        repellendus iste cumque. Laborum?</p>
+    
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

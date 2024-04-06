@@ -1,0 +1,126 @@
+
+.container {display: inline-block;}
+
+*{
+    overflow-y: hidden;
+ }
+
+.text{
+    font-size: 57px;
+    letter-spacing: 10px;
+    font-family:sans-serif;
+    /* border-right: 5px solid; */
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 3.5s,
+        cursor .4s step-end infinite alternate    
+    ;
+    text-decoration:solid;
+    color: white;
+    /* margin: 30px */
+    top: 50%;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent}
+}
+
+@keyframes typing{
+    from{width: 0;}
+}
+
+.box {
+    height: 650px;
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    border-radius: 10px;
+}
+
+.sign {
+    height: 930px;
+    width: 470px;
+    border: 2px solid black;
+    /* position:relative; */
+    /* left: 500px; */
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+form {
+
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+
+#submit {
+    font-size: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.table {
+    font-size: 22px;
+}
+
+#signup:hover {
+    background-color: green;
+}
+*{
+    overflow-y: hidden;
+ }
+.backvideo{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}
+
+/* CODE FOR PASSWORD  */
+box{
+    margin: 0;
+    padding: 0;
+    font-family: 'Impact, Haettenschweiler, Arial Narrow Bold, sans-serif';
+    /* box-sizing: border-box; */
+    
+}
+.SignUp
+{
+    background: white;
+    width:200px;
+    /* max-width: 500px; */
+    border-radius: 5px;
+    /* padding: 10px 10px; */
+    
+
+} 
+
+.error
+{
+    background: white;
+    width:10px;
+    /* max-width: 500px; */
+    border-radius: 5px;
+} 
+
+
+
+.error ul li {
+    list-style:none; /* Remove bullet points */
+}
