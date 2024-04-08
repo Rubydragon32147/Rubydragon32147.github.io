@@ -333,6 +333,7 @@
                     <div class="sub-menu">
                         <div class="userinfo">
                             <img src="IMG.png">
+                            
                             <h2>YOUR NAME</h2>
                         </div>
                         <hr>
